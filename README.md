@@ -65,7 +65,8 @@ Open the **AI Agent** tab and go to **Settings**. Pick a backend:
 
 <!-- screenshot: right-click context menu showing Burp AI Agent actions -->
 ![Context Menu](screenshots/context-menu-request.png)
-#### 6. Windows Setup (Ollama + OpenAI)
+
+### 6. Windows Setup (Ollama + OpenAI)
 
 This project supports **both free local AI (Ollama)** and **cloud AI (OpenAI)**.  
 Choose **one** backend based on your preference.
