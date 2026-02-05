@@ -46,8 +46,7 @@ API Key: ollama
 Timeout: 120
 
 ### Option 2: OpenAI (Cloud AI)
-Get API key:
-https://platform.openai.com/api-keys
+Get API key: https://platform.openai.com/api-keys
 Backend: openai-compatible
 Base URL: https://api.openai.com/v1
 Model: gpt-4o-mini
