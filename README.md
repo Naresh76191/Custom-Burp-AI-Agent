@@ -70,8 +70,6 @@ Open the **AI Agent** tab and go to **Settings**. Pick a backend:
 This project supports **both free local AI (Ollama)** and **cloud AI (OpenAI)**.  
 Choose **one** backend based on your preference.
 
----
-
 Build the Burp AI Agent JAR (Windows)
 git clone https://github.com/Naresh76191/Custom-Burp-AI-Agent.git
 cd Custom-Burp-AI-Agent
@@ -79,7 +77,8 @@ Build the extension:
 gradlew clean shadowJar
 Output JAR will be created at:
 build\libs\
-🔹 Step 5: Load Extension into Burp Suite
+
+**Load Extension into Burp Suite**
 
 1. Open Burp Suite
 2. Go to Extensions → Installed
