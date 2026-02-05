@@ -58,6 +58,9 @@ Timeout: 60
 2. Capture a request with parameters
 3. Right-click → Extensions → Custom AI Agent → Find vulnerabilities
 
+<img width="1874" height="868" alt="image" src="https://github.com/user-attachments/assets/7041e9a1-1ea0-4ec8-b667-ec160d419ed3" />
+<img width="1918" height="869" alt="image" src="https://github.com/user-attachments/assets/d5d17fa1-35bb-4352-93ea-e966fb8fe6e8" />
+<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/670ceb4b-c7bb-4db2-a6c8-7d71557295a5" />
 
 Credits
 
