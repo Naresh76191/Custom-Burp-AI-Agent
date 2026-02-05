@@ -65,8 +65,41 @@ Open the **AI Agent** tab and go to **Settings**. Pick a backend:
 
 <!-- screenshot: right-click context menu showing Burp AI Agent actions -->
 ![Context Menu](screenshots/context-menu-request.png)
+#### 6. Windows Setup (Ollama + OpenAI)
 
-### 6. Connect Claude Desktop via MCP (Optional)
+This project supports **both free local AI (Ollama)** and **cloud AI (OpenAI)**.  
+Choose **one** backend based on your preference.
+
+---
+
+Build the Burp AI Agent JAR (Windows)
+git clone https://github.com/Naresh76191/Custom-Burp-AI-Agent.git
+cd Custom-Burp-AI-Agent
+Build the extension:
+gradlew clean shadowJar
+Output JAR will be created at:
+build\libs\
+🔹 Step 5: Load Extension into Burp Suite
+
+1. Open Burp Suite
+2. Go to Extensions → Installed
+3. Click Add
+4. Extension type: Java
+5. Select the generated .jar file
+6. Click Next
+
+You should now see AI Agent tab in Burp.
+Step 6: Configure Ollama in Burp (IMPORTANT)
+Go to: AI Agent → AI Backend
+Use these exact settings:
+
+Backend: openai-compatible
+Base URL: http://127.0.0.1:11434/v1
+Model: qwen2.5:7b
+(or llama3.1:8b)
+API Key (Bearer): ollama
+
+### 7. Connect Claude Desktop via MCP (Optional)
 
 Enable the MCP server in **Settings > MCP Server** and add this to your Claude Desktop config:
 
