@@ -145,9 +145,6 @@ Full documentation is available at **[burp-ai-agent.six2dez.com](https://burp-ai
 - **Java 21** (bundled with modern Burp for runtime; required separately for building from source)
 - At least one AI backend configured (see table above)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Disclaimer
 
